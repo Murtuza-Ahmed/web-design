@@ -41,7 +41,7 @@ body {
 }
 
 .logo {
-    font-size: 2.5rem;
+    font-size: 2rem;
     color: var(--color-text);
     font-weight: 600;
     cursor: default;
@@ -49,6 +49,27 @@ body {
 
 .header a {
     text-decoration: none;
+}
+
+.navbar a {
+    font-size: 1rem;
+    color: var(--color-text);
+    margin: 0 0 0 4rem;
+    transition: .3s;
+}
+
+.navbar a:hover {
+    color: var(--color-main);
+}
+
+.navbar a:first-child {
+    color: var(--color-main);
+}
+
+#menu-icon {
+    font-size: 3rem;
+    color: var(--color-text);
+    display: none;
 }
 
 /* ================================================================Header Area Style End============================================== */
