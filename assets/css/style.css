@@ -166,3 +166,55 @@ section {
 }
 
 /* Section About Style End */
+
+/* Section Services Style Start */
+.services h2 {
+    margin: 0 0 5rem 0;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.services-container .services-box {
+    /* flex: 1 1 30rem; */
+    width: 450px;
+    background-color: var(--color-sec-bg);
+    padding: 3rem 2rem 4rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid var(--color-bg);
+    transition: .5s ease;
+}
+
+.main-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.services-box i {
+    font-size: 3rem;
+    color: var(--color-main);
+}
+
+.services-box h3 {
+    font-size: 2rem;
+}
+
+.services-box p {
+    font-size: 1rem;
+    margin: 1rem 0 3rem;
+}
+
+.services-container .services-box:hover {
+    border-color: var(--color-main);
+    transform: scale(1.02);
+}
+
+/* Section Services Style End */
