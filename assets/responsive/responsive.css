@@ -1,3 +1,10 @@
+:root {
+    --color-bg: #1f242D;
+    --color-text: #FFF;
+    --color-sec-bg: #323946;
+    --color-main: #0EF;
+}
+
 @media (max-width: 991px) {
     .header {
         padding: 2rem 3%;
@@ -9,5 +16,53 @@
 
     .footer {
         padding: 2rem 3%;
+    }
+}
+
+@media (max-width: 768px) {
+    #menu-icon {
+        display: block;
+    }
+
+    .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 1rem 3%;
+        background-color: var(--color-bg);
+        border-top: .1rem solid rgba(0, 0, 0, .2);
+        box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .2);
+        display: none;
+    }
+
+    .navbar.active {
+        display: block;
+    }
+
+    .navbar a {
+        display: block;
+        font-size: 1rem;
+        margin: 3rem 0;
+    }
+
+    .home {
+        flex-direction: column;
+    }
+
+    .about {
+        flex-direction: column-reverse;
+    }
+
+    .servises-box {
+        flex-basis: 100%;
+    }
+
+    .portfolio h2 {
+        margin-bottom: 3rem;
+    }
+
+    .portfolio-container {
+        grid-template-columns: repeat(2, 1fr);
     }
 }
