@@ -290,7 +290,7 @@ picture {
 
 /* Section Portfolio Style End */
 
-/* Footer Style Start */
+/* Section Contact Style Start */
 .button {
     display: inline-block;
     padding: 1rem 2rem;
@@ -351,6 +351,47 @@ footer {
 
 .contact form textarea {
     resize: none;
+}
+
+/* Section Contact Style End */
+
+/* Footer Style Start */
+footer {
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2rem 9%;
+    background-color: var(--color-sec-bg);
+}
+
+.footer-text p {
+    font-size: 1.6rem;
+}
+
+.footer-iconTop a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem;
+    background-color: var(--color-main);
+    border-radius: .8rem;
+    text-decoration: none;
+    transition: .5s ease;
+}
+
+.footer-iconTop a:hover {
+    box-shadow: 0 0 1rem var(--color-main);
+}
+
+.footer-iconTop i {
+    font-size: 2.4rem;
+    color: var(--color-sec-bg);
 }
 
 /* Footer Style End */
