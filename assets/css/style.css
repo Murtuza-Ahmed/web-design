@@ -132,3 +132,37 @@ section {
 }
 
 /* Section Home Style End */
+
+/* Section About Style Start */
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-sec-bg);
+    gap: 2rem;
+}
+
+.heading span {
+    color: var(--color-main);
+}
+
+.heading {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.about-content h2 {
+    text-align: left;
+    line-height: 1.2;
+}
+
+.about-content h3 {
+    font-size: 1.5rem;
+}
+
+.about-content p {
+    font-size: 1rem;
+    margin: 2rem 0 3rem;
+}
+
+/* Section About Style End */
