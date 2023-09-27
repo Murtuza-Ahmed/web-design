@@ -303,6 +303,8 @@ picture {
     letter-spacing: .1rem;
     font-weight: 600;
     transition: .5s ease;
+    margin-top: 2rem;
+    cursor: pointer;
 }
 
 .button:hover {
@@ -341,6 +343,14 @@ footer {
     border-radius: .8rem;
     margin: .7rem 0;
     border-style: none;
+}
+
+.contact form .input-box input {
+    flex-basis: 48%;
+}
+
+.contact form textarea {
+    resize: none;
 }
 
 /* Footer Style End */
